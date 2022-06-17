@@ -1,0 +1,62 @@
+{
+    "name": "topthink/think",
+    "description": "the new thinkphp framework",
+    "type": "project",
+    "keywords": [
+        "framework",
+        "thinkphp",
+        "ORM"
+    ],
+    "homepage": "http://thinkphp.cn/",
+    "license": "Apache-2.0",
+    "authors": [{
+        "name": "liu21st",
+        "email": "liu21st@gmail.com"
+    }],
+    "require": {
+        "php": ">=7.4.0",
+        "topthink/framework": "5.1.*",
+        "huihuangjiuai/thinkphp5.1-migration": "^1.0",
+        "topthink/think-container": "^2.0",
+        "topthink/think-orm": "^2.0",
+        "topthink/think-queue": "^2.0",
+        "topthink/think-captcha": "^2.0",
+        "topthink/think-image": "^1.0",
+        "topthink/think-helper": "^3.1",
+        "topthink/think-template": "^2.0",
+        "topthink/think-cache": "^2.0",
+        "topthink/think-validate": "^2.0",
+        "topthink/think-installer": "^2.0",
+        "topthink/think-log": "^2.0",
+        "thans/tp-jwt-auth": "^1.2",
+        "zzstudio/think-wechat": "^2.1",
+        "naixiaoxin/think-wechat": "^1.6",
+        "psr/container": "^1.0",
+        "php-di/php-di": "^6.4",
+        "php-ffmpeg/php-ffmpeg": "^0.19.0",
+        "league/flysystem": "^2.4",
+        "guzzlehttp/guzzle": "^7.4",
+        "intervention/image": "^2.7",
+        "filp/whoops": "^2.14",
+        "symfony/var-dumper": "^5.4",
+        "topthink/think-migration": "2.0.*",
+        "casbin/casbin": "^3.20",
+        "yzh52521/schedule": "^1.0",
+        "yunwuxin/think-cron": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "app\\": "application"
+        }
+    },
+    "extra": {
+        "think-path": "thinkphp"
+    },
+    "config": {
+        "preferred-install": "dist",
+        "allow-plugins": {
+            "topthink/think-installer": true,
+            "easywechat-composer/easywechat-composer": true
+        }
+    }
+}
